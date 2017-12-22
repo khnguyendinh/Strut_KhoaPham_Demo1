@@ -20,7 +20,7 @@ public class HelloAction extends ActionSupport {
     public String execute() throws Exception {
         return "success";
     }
-     public String hienThikkkkkkkkkk() throws Exception {
-        return "success1";
+     public String hienThi() {
+        return "success";
     }
 }

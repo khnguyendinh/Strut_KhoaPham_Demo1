@@ -13,6 +13,8 @@
     </head>
     <body>
         <s:a action="hello">Hello nao</s:a><br/>
+        <br/>
+        <br/>
         <s:a action="hienthi">Hien thi nao</s:a>
     </body>
 </html>

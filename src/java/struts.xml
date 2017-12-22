@@ -8,8 +8,8 @@
         <action name="hello" class="controller.HelloAction">
             <result name="success">hello.jsp</result>
         </action>
-        <action name="hienthi" class="controller.HelloAction" method="hienThikkkkkkkkkk">
-            <result name="success1">hienThi.jsp</result>     
+        <action name="hienthi" class="controller.HelloAction" method="hienThi">
+            <result name="success">hienThi.jsp</result>     
         </action>
     </package>
 </struts>
