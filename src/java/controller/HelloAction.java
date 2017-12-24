@@ -6,6 +6,8 @@
 package controller;
 
 import com.opensymphony.xwork2.ActionSupport;
+import java.util.AbstractList;
+import java.util.ArrayList;
 import java.util.List;
 import models.SanPham;
 
@@ -53,6 +55,8 @@ public class HelloAction extends ActionSupport {
         return "success";
     }
      public String hienThi() {
+         System.out.println("hien thi");
+        this.dsSP = new ArrayList<SanPham>();
         this.dsSP.add(new SanPham("Ma_SP1", "nồi cơm điện 1", 1000L));
         this.dsSP.add(new SanPham("Ma_SP2", "nồi cơm điện 2", 2000L));
         this.dsSP.add(new SanPham("Ma_SP3", "nồi cơm điện 3", 3000L));
