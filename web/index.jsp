@@ -16,5 +16,11 @@
         <br/>
         <br/>
         <s:a action="hienthi">Hien thi nao</s:a>
+        <br/>
+        <s:a href="dangnhap.jsp">Dang nhap</s:a>
+        <br/>
+        <s:a href="dangKy.jsp">Dang ki</s:a>
+        <br/>
+        <s:a href="tags.jsp">Tags</s:a>
     </body>
 </html>

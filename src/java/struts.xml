@@ -11,5 +11,15 @@
         <action name="hienthi" class="controller.HelloAction" method="hienThi">
             <result name="success">hienThi.jsp</result>     
         </action>
+        <action name="dangnhap" class="controller.DangNhapActionSupport">
+             <result name="input">dangnhap.jsp</result> 
+             <result name="success">welcome.jsp</result> 
+             <result name="fail">dangnhap.jsp</result> 
+        </action>
+        <action name="dangki" class="controller.DangKyActionSupport">
+             <result name="input">dangKy.jsp</result> 
+             <result name="success">hienThiThongTin.jsp</result> 
+             <result name="fail">dangKy.jsp</result> 
+        </action>
     </package>
 </struts>
